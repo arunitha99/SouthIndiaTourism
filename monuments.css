@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap');
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2em 2fr 2em;
+    grid-template-rows: 3.5em 2fr 5em;
+    grid-template-areas:
+        "header  header  header"
+        "content content content"
+        "footer footer footer";
+    background-color: black;
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(172, 9, 247);
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_bar {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: rgb(172, 9, 247);
+
+}
+
+.nav_button {
+    width: 100px;
+    height: 100%;
+    background-color: rgb(172, 9, 247);
+    border: none;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav_button:hover {
+    background-color: rgb(45, 5, 63);
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150%;
+}
+
+.content {
+    color: white;
+    grid-area: content;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.header_logo {
+    height: 50px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 15px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.bodymon {
+    background: linear-gradient(180deg, rgb(8, 23, 107), rgb(158, 20, 20));
+}
+
+.content {
+    background: linear-gradient(120deg, rgb(0, 174, 255), red);
+    /* background-color:rgb(107, 135, 160); */
+    margin-right: 3%;
+    margin-left: 5%;
+    height: 100%;
+    padding: 10px;
+}
+
+.container-gap {
+    width: 500px;
+    height: 100px;
+}
+
+
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+
+}
+
+.container-flexcol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+#Badami,
+#Bahamani,
+#Belgaum,
+#Bidar,
+#ChennaTemp,
+#Choubara,
+#GolGumbaz,
+#Halebidu,
+#Hampi,
+#Hassan,
+#Hospet,
+#HoysaTemple,
+#Kedareshwara,
+#MysorePalace,
+#Srirangapatna,
+#Statue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    width: 100%;
+
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.bodysanct {
+    background-image: url("../IMAGES/backsanct.jpg");
+    /* background-repeat: no-repeat;
+    background-size:100%; */
+    display: grid;
+    grid-template-areas:
+        "header  header  header"
+        "content content content"
+        "footer footer footer";
+    grid-template-columns: 5em 2fr 5em;
+    grid-template-rows: 5em 2fr 5em;
+    grid-gap: 10px;
+}
+
+
+.image_sanct_galary {
+    display: block;
+    text-align: center;
+}
+
+.national_parks,
+.bird_sancturies {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.national_parks {
+    background: linear-gradient(120deg, rgb(42, 228, 166), rgb(10, 119, 83));
+}
+
+.bird_sancturies {
+    background: linear-gradient(120deg, rgb(42, 185, 228), rgb(10, 85, 119));
+}
+
+.container_a {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: seashell;
+    margin: 2% 2% 2% 2%;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5%;
+    font-family: 'Indie Flower', cursive;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.image_nationalpark {
+    width: 290px;
+    max-height: 250px;
+}
+
+.container_a:hover {
+    transform: scale(1.1);
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 5px 5px 2px 2px rgb(184, 73, 73);
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:1000px) {
+
+    .bodysanct {
+        margin: 0%;
+        height: 100%;
+    }
+
+    .bodysanct .content-header-after {
+        width: 96%;
+        margin-left: 1.5%;
+        height: 100%;
+    }
+
+    .image_nationalpark {
+        max-height: 100px;
+    }
+
+    #Badami,
+    #Bahamani,
+    #Belgaum,
+    #Bidar,
+    #ChennaTemp,
+    #Choubara,
+    #GolGumbaz,
+    #Halebidu,
+    #Hampi,
+    #Hassan,
+    #Hospet,
+    #HoysaTemple,
+    #Kedareshwara,
+    #MysorePalace,
+    #Srirangapatna,
+    #Statue {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 40px;
+        text-align: justify;
+    }
+
+    .image-container {
+        padding-left: 12%;
+    }
+
+    .container-l {
+        width: 80%;
+    }
+
+    .container-r {
+        width: 100%;
+        /* background-color: white; */
+    }
+
+    a {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    a:hover {
+        color: red !important;
+    }
+
+    h1,
+    p {
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .logo_container {
+        justify-content: flex-start;
+    }
+
+    .logo_container h1 {
+        display: none;
+    }
+
+    .content-header-after a:hover {
+        color: rgb(33, 32, 41);
+    }
+
+    .container-s {
+        display: none;
+    }
+
+    .container_a {
+        height: 150px;
+        width: 150px;
+        font-size: small;
+    }
+
+    .image_nationalpark {
+        width: 100px;
+    }
+}
