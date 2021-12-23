@@ -4,7 +4,7 @@
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 3.5em 2fr 15em;
+    grid-template-rows: 3.5em 2fr 10em;
     grid-template-areas:
         "header  header  header"
         "content content content"
