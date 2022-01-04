@@ -186,6 +186,58 @@ a {
 .TN {
     background: linear-gradient(70deg, rgb(0, 204, 255), rgb(135, 233, 7));
 } */
+ /*
+    .header_logo {
+        height: 50px;
+        width: 100px;
+        border: 1px solid white;
+        position:absolute;
+        top:15px;
+        left:15px;
+    }
+    .img_responsive {
+        height: 100%;
+        width: 20%;
+        margin-top: 1px;
+        justify-content: space-evenly;
+    }*/
+    /* 
+    .login {
+        background-color: rgba(174, 245, 10, 0.973)
+    }
+
+    #login {
+        border: 1px solid black;
+        width: 250px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    #login {
+        height: 350px;
+        background-color: #3cc919;
+        color: white;
+    }
+
+    #login a {
+        color: white;
+    }
+
+    #login a:hover{
+        color: rgb(31, 3, 3);
+    }
+
+    #login input:hover{
+        background-color: black;
+        color: white;
+        box-shadow: 2px 5px 5px rgb(250, 247, 247);
+        border: 1px solid white;
+
+    }
+ */
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
@@ -227,21 +279,7 @@ a {
         margin-right: 4%;
     }
 
-    /*
-    .header_logo {
-        height: 50px;
-        width: 100px;
-        border: 1px solid white;
-        position:absolute;
-        top:15px;
-        left:15px;
-    }
-    .img_responsive {
-        height: 100%;
-        width: 20%;
-        margin-top: 1px;
-        justify-content: space-evenly;
-    }*/
+   
     .img_2 {
         width: 250px;
     }
@@ -356,43 +394,7 @@ a {
         height: 10px;
     }
 
-    /* 
-    .login {
-        background-color: rgba(174, 245, 10, 0.973)
-    }
-
-    #login {
-        border: 1px solid black;
-        width: 250px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    #login {
-        height: 350px;
-        background-color: #3cc919;
-        color: white;
-    }
-
-    #login a {
-        color: white;
-    }
-
-    #login a:hover{
-        color: rgb(31, 3, 3);
-    }
-
-    #login input:hover{
-        background-color: black;
-        color: white;
-        box-shadow: 2px 5px 5px rgb(250, 247, 247);
-        border: 1px solid white;
-
-    }
- */
+    
     .container {
         display: flex;
         flex-wrap: wrap;
