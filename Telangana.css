@@ -1,0 +1,11 @@
+body{
+    background-color:lightyellow;
+    }
+  div.title{
+    color:#ff0000;
+  }
+  div.column img {
+    width:90%;
+    height:900px;
+  }
+  
